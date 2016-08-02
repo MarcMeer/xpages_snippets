@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+
+	<xp:this.resources>
+		<xp:styleSheet href="/switchexample.css"></xp:styleSheet>
+		<xp:script src="/switchexample.js" clientSide="true"></xp:script>
+	</xp:this.resources>
+
+
+	<h2>Toggle Switch voorbeeld</h2>
+
+	<div>
+		Vierkante optie 1
+	</div>
+	<label class="switch">
+		<input type="checkbox" />
+		<div class="slider"></div>
+	</label>
+
+	<div>
+		Vierkante optie 2
+	</div>
+	<label class="switch">
+		<input type="checkbox"/>
+		<div class="slider"></div>
+	</label>
+
+	<div>
+		Ronde optie 1
+	</div>
+	<label class="switch">
+		<input type="checkbox" id="rondeOptie1" />
+		<div class="slider round"></div>
+	</label>
+
+	<div>
+		Haal op van Internet
+	</div>
+	<label class="switch">
+		<input type="checkbox" checked="1" id="ophalenInternet" />
+		<div class="slider round"></div>
+	</label>
+
+	<div>
+		Haal op uit intranet
+	</div>
+
+	<label class="switch">
+		<input id="ophalenuitintranet" type="checkbox"  />
+		<div class="slider round"></div>
+	</label>
+
+	<xp:inputText id="inputText3" style="display:block" styleClass="checkboxInputBox" value="#{mybean.rondeOptie1T}">
+		<xp:this.attrs>
+			<xp:attr name="checkboxId" value="rondeOptie1"></xp:attr>
+		</xp:this.attrs>
+	</xp:inputText>
+
+
+	<xp:inputText id="inputText2" style="display:block" styleClass="checkboxInputBox" value="#{mybean.ophalenInternetT}">
+		<xp:this.attrs>
+			<xp:attr name="checkboxId" value="ophalenInternet"></xp:attr>
+		</xp:this.attrs>
+	</xp:inputText>
+
+	<xp:inputText id="inputText1" style="display:block" styleClass="checkboxInputBox" value="#{mybean.ophalenIntranetT}">
+		<xp:this.attrs>
+			<xp:attr name="checkboxId" value="ophalenuitintranet"></xp:attr>
+		</xp:this.attrs>
+	</xp:inputText>
+
+
+	<xp:scriptBlock id="scriptBlock1">
+		<xp:this.value><![CDATA[
+  
+		]]></xp:this.value>
+	</xp:scriptBlock>
+</xp:view>

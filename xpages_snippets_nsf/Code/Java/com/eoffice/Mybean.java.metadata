@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.4" replicaid="C125800200447F90" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="182" sequence="15" unid="234FEFDE756857A4C125800300333F39">
+<created><datetime dst="true">20160802T111945,21+02</datetime></created>
+<modified><datetime dst="true">20160802T112917,88+02</datetime></modified>
+<revised><datetime dst="true">20160802T112917,87+02</datetime></revised>
+<lastaccessed><datetime dst="true">20160802T112917,88+02</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20160802T111945,22+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Marc van Meer/OU=EOF/O=EOG</name></updatedby>
+<wassignedby><name>CN=Marc van Meer/OU=EOF/O=EOG</name></wassignedby>
+<item name="$Flags"><text>34567Cg~[</text></item>
+<item name="$TITLE"><text>com/eoffice/Mybean.java</text></item>
+
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+
+<item name="$FileNames" sign="true"><text>com/eoffice/Mybean.java</text></item>
+
+</note>
